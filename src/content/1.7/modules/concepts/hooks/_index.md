@@ -41,6 +41,9 @@ public function install()
 ```
 
 If you do not know where you can register, [a list of available hooks]({{< ref "1.7/modules/concepts/hooks/list-of-hooks.md" >}}) is available.
+{{% notice note %}}
+Hooks on admin pages only work, if the admin profile has permission to use your module.
+{{% /notice %}}
 
 ### Execution
 
